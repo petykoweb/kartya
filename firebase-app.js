@@ -1,13 +1,18 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD...your-api-key...",  // Itt legyen a saját Firebase API kulcsod
+  apiKey: "AIzaSyCuGJhygh3Jg4ThLlKIsJrQhhwdGZTPqcE",
   authDomain: "kartyashop-90596.firebaseapp.com",
-  databaseURL: "https://kartyashop-90596-default-rtdb.firebaseio.com",  // Firebase adatbázis URL
+  databaseURL: "https://kartyashop-90596-default-rtdb.firebaseio.com",
   projectId: "kartyashop-90596",
-  storageBucket: "kartyashop-90596.appspot.com",
-  messagingSenderId: "123456789012",  // Itt legyen a saját messagingSenderId-d
-  appId: "1:123456789012:web:abcdefgh123456"  // Itt legyen a saját appId-d
+  storageBucket: "kartyashop-90596.firebasestorage.app",
+  messagingSenderId: "891615268581",
+  appId: "1:891615268581:web:46bd572eb2b12ad3820e0c"
 };
 
-// Firebase inicializálás
-const app = firebase.initializeApp(firebaseConfig);
-const db = firebase.database();
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
