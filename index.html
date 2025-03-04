@@ -6,7 +6,7 @@
     <title>Break Hírek</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
@@ -17,70 +17,90 @@
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
         }
         .post {
-            border: 1px solid #ddd;
+            border: 2px solid #007bff;
             padding: 15px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             background: #e3e3e3;
-            border-radius: 5px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .post:hover {
+            transform: scale(1.02);
         }
         .post img {
             max-width: 100%;
             height: auto;
-            border-radius: 5px;
+            border-radius: 10px;
         }
         .section {
             max-width: 800px;
             margin: 20px auto;
-            padding: 10px;
+            padding: 20px;
             background: #d9d9d9;
-            border-radius: 5px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-    </style>
-            <style>
         .custom-button {
             background-color: #007bff;
             color: white;
-            padding: 10px 20px;
-            font-size: 16px;
+            padding: 12px 25px;
+            font-size: 18px;
+            font-weight: bold;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
             cursor: pointer;
             text-decoration: none;
             display: inline-block;
+            transition: background 0.3s ease;
         }
         .custom-button:hover {
             background-color: #0056b3;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #333;
         }
     </style>
 </head>
 <body>
     <a href="https://petykoweb.github.io/bolt/" class="custom-button">Vissza a fő oldalra</a>
-    <h1 style="text-align:center;">Break Aktuális Hírek</h1>
+    <h1>🚀 Break Aktuális Hírek 🚀</h1>
     <div class="container" id="posts"></div>
     
     <div class="section">
-        <h2>Break kiírás, infók, egyebek</h2>
-        <p><strong>02.25. kedd 18:30</strong> - Topps 21/22 UEFA Champions League Collection Soccer Hobby Box</p>
-        <p><strong>02.27. csütörtök 18:30</strong> - Topps Chrome 2023 blaster box</p>
-        <p><strong>03.02. vasárnap 18:45</strong> - Panini Mosaic 2021 UEFA Euro 2020 Cereal box razz</p>
-        <h3>Tiktok élő:</h3>
-        <p><strong>02.26. szerda 19:30</strong> + Ha bontunk breaket vagy random esti live 🙂</p>
-        <h3>Extra információk:</h3>
-        <p><strong>Március 1.</strong> - Új nyereményjáték veszi kezdetét egyik kedves tagunk felajánlásával.</p>
-        <p><a href="https://petykoweb.github.io/febpen/" target="_blank">Weboldalon</a> megtekinthetőek a pakkok és boxok.</p>
-        <p>Tudok foglalni, amit ott nem kell kifizetni, emailben jön nekem és látom, hogy mit szeretnétek majd liveban.</p>
+        <h2>🔥 Break kiírás, bontás, posta, infók, egyebek! 🔥</h2>
+        <h3>🎯 Break kiírás:</h3>
+        <p><strong>03.04. kedd 18:30</strong> - Panini Donruss Soccer 24/25 blaster box ⚽</p>
+        <p><strong>03.05. szerda 18:30</strong> - Panini NBA Hoops 22/23 blaster box 🏀</p>
+        <p><strong>03.06. csütörtök 18:30</strong> - Panini Fifa Score 21/22 retail box ⚽</p>
+        <p><strong>03.09. vasárnap 18:45</strong> - Topps Carnaval Edition 22/23 UEFA Club Competitions Soccer Hobby Box 🎉</p>
+        <h3>🎥 Tiktok élő:</h3>
+        <p><strong>03.04. kedd 19:30</strong> 📱</p>
+        <p><strong>03.05. szerda 19:30</strong> 📱</p>
+        <h3>🃏 Break bontás:</h3>
+        <p><strong>03.03. hétfő 19:30</strong> - Barcelona fan set 🔵🔴</p>
+        <p>Finest Flashback szintérn hétfőre van tervezve, de ha addig nem mindenkitől jön meg az utalás, akkor kedden bontjuk 😊</p>
+        <h3>📦 Posta poszt:</h3>
+        <p><strong>03.07. péntek 14:00</strong> 🚚</p>
+        <h3>🏆 Nyereményjáték:</h3>
+        <p>Megtálalható a kiemelt résznél.</p>
+        <p><a href="https://petykoweb.github.io/febpen/" target="_blank">🔗 Weboldalon</a> megtekinthetőek a pakkok és boxok.</p>
+        <p>Tudok foglalni, amit ott nem kell kifizetni, emailben jön nekem és látom, hogy mit szeretnétek majd liveban. ✉️</p>
     </div>
     
     <script>
         const posts = [
-            { date: "02.25. kedd 18:30", title: "Topps 21/22 UEFA Champions League Collection Soccer Hobby Box", image: "" },
-            { date: "02.27. csütörtök 18:30", title: "Topps Chrome 2023 blaster box", image: "" },
-            { date: "03.02. vasárnap 18:45", title: "Panini Mosaic 2021 UEFA Euro 2020 Cereal box razz", image: "" },
-            { date: "02.26. szerda 19:30", title: "Tiktok élő", image: "" },
-            { date: "Március 1.", title: "Új nyereményjáték", image: "" }
+            { date: "03.04. kedd 18:30", title: "Panini Donruss Soccer 24/25 blaster box", image: "" },
+            { date: "03.05. szerda 18:30", title: "Panini NBA Hoops 22/23 blaster box", image: "" },
+            { date: "03.06. csütörtök 18:30", title: "Panini Fifa Score 21/22 retail box", image: "" },
+            { date: "03.09. vasárnap 18:45", title: "Topps Carnaval Edition 22/23 UEFA Club Competitions Soccer Hobby Box", image: "" },
+            { date: "03.04. kedd 19:30", title: "Tiktok élő", image: "" },
+            { date: "03.05. szerda 19:30", title: "Tiktok élő", image: "" },
+            { date: "03.03. hétfő 19:30", title: "Barcelona fan set bontás", image: "" },
+            { date: "03.07. péntek 14:00", title: "Posta poszt", image: "" }
         ];
 
         function renderPosts() {
@@ -90,8 +110,8 @@
                 const postElement = document.createElement("div");
                 postElement.classList.add("post");
                 postElement.innerHTML = `
-                    <h3>${post.title}</h3>
-                    <p><strong>${post.date}</strong></p>
+                    <h3>✨ ${post.title} ✨</h3>
+                    <p><strong>📅 ${post.date}</strong></p>
                     ${post.image ? `<img src="${post.image}" alt="">` : ""}
                 `;
                 postContainer.appendChild(postElement);
